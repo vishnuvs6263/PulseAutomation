@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-13T08:55:20.855Z",
+        "start_timestamp": "2021-10-13T09:54:09.602Z",
         "line": 2,
         "name": "Verify the dashboardpage",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5534641200,
+              "duration": 6573502300,
               "status": "passed"
             },
             "line": 3,
@@ -32,7 +32,7 @@
           },
           {
             "result": {
-              "duration": 3717067700,
+              "duration": 2823748900,
               "status": "passed"
             },
             "line": 5,
@@ -50,6 +50,30 @@
               }
             ],
             "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4455665500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Naviagte to create patient page and add patient",
+            "match": {
+              "location": "stepDefnitions.LoginStep.naviagte_to_create_patient_page_and_add_patient()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Create a new patient",
+            "match": {
+              "location": "stepDefnitions.LoginStep.create_a_new_patient()"
+            },
+            "keyword": "When "
           }
         ]
       }
@@ -58,7 +82,7 @@
     "description": "",
     "id": "login-into-the-application",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/Login.feature",
+    "uri": "file:src/test/java/features/Feature1.feature",
     "tags": []
   }
 ]

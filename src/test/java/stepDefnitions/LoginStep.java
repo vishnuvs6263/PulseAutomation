@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import Pages.LoginPageObjects;
+import Pages.PatientsPageObjects;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
@@ -66,5 +67,20 @@ import junit.framework.Assert;
 			
 		}
 		
+		@When("^Naviagte to create patient page and add patient$")
+	    public void naviagte_to_create_patient_page_and_add_patient() throws Throwable {
+	       PatientsPageObjects objects = new PatientsPageObjects(driver);
+	       objects.ClinicsModule().click();
+	       objects.AddPatientSubModule().click();
+	    }
 
-}
+	    @When("^Create a new patient$")
+	    public void create_a_new_patient() throws Throwable {
+	    	
+	    	System.out.println("test");
+	        
+	    }
+		}
+		
+
+
