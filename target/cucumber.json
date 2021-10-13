@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T08:55:20.855Z",
+        "line": 2,
+        "name": "Verify the dashboardpage",
+        "description": "",
+        "id": "login-into-the-application;verify-the-dashboardpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5534641200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Application is launched",
+            "match": {
+              "location": "stepDefnitions.LoginStep.application_is_launched(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://www.idaksbassist.com/"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3717067700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login into the application using username and password",
+            "match": {
+              "location": "stepDefnitions.LoginStep.user_login_into_the_application_using_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "test01@gmail.com",
+                  "test123",
+                  "Dac Test Hospital"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Login into the application",
+    "description": "",
+    "id": "login-into-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
